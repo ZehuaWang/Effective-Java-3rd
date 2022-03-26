@@ -13,7 +13,6 @@ Static factory methods can help by providing purposeful naming.
 Example: Creating a Point(x,y) class
 
 ````
-```
 public class Point {
     double x, y;
 
@@ -28,5 +27,4 @@ public class Point {
         this. y = rho * Math.sin(phi);
     }
 }
-```
 ````
