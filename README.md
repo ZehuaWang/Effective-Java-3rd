@@ -28,3 +28,5 @@ public class Point {
     }
 }
 ````
+
+Use Static factory method -> of(), valueOf()
