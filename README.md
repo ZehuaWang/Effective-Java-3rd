@@ -35,7 +35,7 @@ Use Static factory method -> of(), valueOf()
 
 ![image](https://user-images.githubusercontent.com/40006814/160309722-5c563203-abaf-4d30-be0b-5fc687626838.png)
 
-、、、、
+````
 // can not be inherited
 public class Point {
     double x, y;
@@ -60,4 +60,4 @@ public class Point {
         return new Point(x, y, 0);
     }
 }
-、、、、
+````
