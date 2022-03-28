@@ -30,3 +30,5 @@ public class Point {
 ````
 
 Use Static factory method -> of(), valueOf()
+
+![image](https://user-images.githubusercontent.com/40006814/160308585-9d409a04-e502-4eb5-b478-a71b362c4513.png)
