@@ -35,3 +35,29 @@ Use Static factory method -> of(), valueOf()
 
 ![image](https://user-images.githubusercontent.com/40006814/160309722-5c563203-abaf-4d30-be0b-5fc687626838.png)
 
+、、、、
+// can not be inherited
+public class Point {
+    double x, y;
+
+    private Point(double x, double y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    private Point(double rho, double phi, int dummy) {
+        this.x = rho * Math.cos(phi);
+        this.y = rho * Math.sin(phi);
+    }
+
+    // in java, we can not use "var" for return types
+    // make the method name informative
+    public static Point fromCartesian(double x, double y) {
+        return new Point(x, y);
+    }
+
+    public static Point fromPolar(double x, double y) {
+        return new Point(x, y, 0);
+    }
+}
+、、、、
