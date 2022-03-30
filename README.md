@@ -61,3 +61,6 @@ public class Point {
     }
 }
 ````
+
+![image](https://user-images.githubusercontent.com/40006814/160936364-5952881b-15db-4ff6-a18e-93e6d7607606.png)
+
